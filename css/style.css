@@ -1,0 +1,73 @@
+.welcome {
+    position: fixed;
+    top: 0;
+    background: linear-gradient(to right bottom, rgba(69, 78, 83, .85), rgba(222, 78, 5, .5));
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.top {
+    position: relative;
+    top: 45%;
+    color: white;
+    transform: translateY(-45%);
+}
+.bottom {
+    position: relative;
+    top: 60%;
+    color: white;
+    transform: translateY(-60%);
+}
+.bottom i {
+    position: relative;
+    top: 20px;
+}
+.col-10 {
+    margin-bottom: 30px;
+}
+.col-10 img {
+    object-fit: cover;
+    height: inherit;
+    width: 100%;
+    box-shadow: 0 0 5px #434f51;
+}
+.inspire-w {
+    height: 125px;
+    width: 232px;
+}
+.investmnt-w {
+    height: 125px;
+    width: 125px;
+}
+.product-declaration{
+position: relative;
+top:26px;
+left:18px;
+color:#3c5988;
+}
+
+@media(max-width:997px){
+ .product-declaration{
+ left: 0px;
+ }
+ }
+@media (max-width: 578px) {
+    .inspire-w {
+        height: 63px;
+        width: 116px;
+    }
+    .investmnt-w {
+        height: 63px;
+        width: 63px;
+    }
+    .bottom i {
+        top: 5px;
+        font-size: 2rem;
+    }
+    .bottom {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
